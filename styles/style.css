@@ -340,13 +340,70 @@ iframe{
     height: 314px;
     margin: 0 auto;
     padding: 64px 48px 64px 48px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.7;
-    overlay: 0.5;
-    
+    border-radius: 16px;
+}
 
+.image-overlay{
+    width: 100%;
+    height: 100%;
+    font-family: Azeret Mono;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-overlay h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.image-overlay p{
+    margin-top: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+#input-field{
+    width: 684px;
+    height: 58px;
+    margin: 48px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#feedback input{
+    margin: 0px 16px;
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+#submit button{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    cursor: pointer;
 }
 /* Fourth section ends here */
